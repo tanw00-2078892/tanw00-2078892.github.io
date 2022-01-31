@@ -1,0 +1,32 @@
+body {
+	background: green
+}
+
+
+.text {
+float: right;
+background: cyan;
+}
+
+.text2 {
+	text-align: center;
+	border-style: dotted;
+	border-top-left-radius:3em;
+	border-top-right-radius:3em;
+	border-bottom-left-radius:2em;
+	border-bottom-right-radius:2em;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
